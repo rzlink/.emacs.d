@@ -10,6 +10,7 @@
 ;; add whatever packages you want here
 (defvar davwei/packages '(
 			  which-key
+			  swiper
 			  ) "Default packages")
 
 (setq package-selected-packages davwei/packages)
@@ -28,6 +29,6 @@
       (package-install pkg))))
 
 ;; enable which key mode
-(which-key-mode)
+;;(which-key-mode)
 
 (provide 'init-packages)
