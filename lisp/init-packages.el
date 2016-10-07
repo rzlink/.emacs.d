@@ -10,6 +10,7 @@
 ;; add whatever packages you want here
 (defvar davwei/packages '(
 			  which-key
+			  counsel
 			  swiper
 			  ) "Default packages")
 
@@ -30,5 +31,9 @@
 
 ;; enable which key mode
 ;;(which-key-mode)
+
+;; config ivy-mode
+(ivy-mode 1)
+(setq ivy-use-virtual-buffers t)
 
 (provide 'init-packages)
