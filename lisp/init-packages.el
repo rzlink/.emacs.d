@@ -39,6 +39,7 @@
 
 ;; config company mode
 (global-company-mode t)
-
+(setq-default company-minimum-prefix-length 1)
+(setq-default company-idle-delay 0.08)
 
 (provide 'init-packages)
