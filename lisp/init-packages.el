@@ -12,6 +12,7 @@
 			  which-key
 			  counsel
 			  swiper
+			  company
 			  ) "Default packages")
 
 (setq package-selected-packages davwei/packages)
@@ -35,5 +36,9 @@
 ;; config ivy-mode
 (ivy-mode 1)
 (setq ivy-use-virtual-buffers t)
+
+;; config company mode
+(global-company-mode t)
+
 
 (provide 'init-packages)
