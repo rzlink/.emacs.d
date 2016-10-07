@@ -13,6 +13,8 @@
 			  counsel
 			  swiper
 			  company
+			  popwin
+			  youdao-dictionary
 			  ) "Default packages")
 
 (setq package-selected-packages davwei/packages)
@@ -41,5 +43,14 @@
 (global-company-mode t)
 (setq-default company-minimum-prefix-length 1)
 (setq-default company-idle-delay 0.08)
+
+;; config for youdao-dictionary
+;; Enable Cache
+(setq url-automatic-caching t)
+
+;; Example Key binding
+(global-set-key (kbd "C-c y") 'youdao-dictionary-search-at-point)
+;; Integrate with popwin-el (https://github.com/m2ym/popwin-el)
+(push "*Youdao Dictionary*" popwin:special-display-config)
 
 (provide 'init-packages)
