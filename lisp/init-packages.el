@@ -16,6 +16,7 @@
 			  popwin
 			  youdao-dictionary
 			  magit
+			  yasnippet
 			  spacegray-theme
 			  monokai-theme
 			  solarized-theme
@@ -63,5 +64,8 @@
 (push "*Youdao Dictionary*" popwin:special-display-config)
 
 (add-hook 'after-init-hook '(lambda () (load-theme 'solarized-dark t)))
+
+(require 'yasnippet)
+(yas-global-mode 1)
 
 (provide 'init-packages)
