@@ -15,6 +15,7 @@
 			  company
 			  popwin
 			  youdao-dictionary
+			  magit
 			  ) "Default packages")
 
 (setq package-selected-packages davwei/packages)
@@ -47,6 +48,10 @@
 ;; config for youdao-dictionary
 ;; Enable Cache
 (setq url-automatic-caching t)
+
+;; popwin config
+(require 'popwin)
+(popwin-mode 1)
 
 ;; Example Key binding
 (global-set-key (kbd "C-c y") 'youdao-dictionary-search-at-point)
