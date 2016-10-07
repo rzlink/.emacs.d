@@ -5,10 +5,10 @@
  ;; If there is more than one, they won't work right.
  '(custom-safe-themes
    (quote
-    ("c05b3e1761ba96b8169e62fd9c1a7359844a4c274f6879b6105984719f5fe8d7" "d8f76414f8f2dcb045a37eb155bfaa2e1d17b6573ed43fb1d18b936febc7bbc2" default)))
+    ("a800120841da457aa2f86b98fb9fd8df8ba682cebde033d7dbf8077c1b7d677a" "c05b3e1761ba96b8169e62fd9c1a7359844a4c274f6879b6105984719f5fe8d7" "d8f76414f8f2dcb045a37eb155bfaa2e1d17b6573ed43fb1d18b936febc7bbc2" default)))
  '(package-selected-packages
    (quote
-    (darktooth-theme which-key counsel swiper company popwin youdao-dictionary magit spacegray-theme))))
+    (monokai-theme darktooth-theme which-key counsel swiper company popwin youdao-dictionary magit spacegray-theme))))
 
 (custom-set-faces
  ;; custom-set-faces was added by Custom.

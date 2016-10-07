@@ -17,6 +17,7 @@
 			  youdao-dictionary
 			  magit
 			  spacegray-theme
+			  monokai
 			  ) "Default packages")
 
 (setq package-selected-packages davwei/packages)
