@@ -16,6 +16,7 @@
 			  popwin
 			  youdao-dictionary
 			  magit
+			  spacegray-theme
 			  ) "Default packages")
 
 (setq package-selected-packages davwei/packages)
