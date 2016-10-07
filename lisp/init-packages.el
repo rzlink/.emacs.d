@@ -17,7 +17,8 @@
 			  youdao-dictionary
 			  magit
 			  spacegray-theme
-			  monokai
+			  monokai-theme
+			  solarized-theme
 			  ) "Default packages")
 
 (setq package-selected-packages davwei/packages)
@@ -59,5 +60,7 @@
 (global-set-key (kbd "C-c y") 'youdao-dictionary-search-at-point)
 ;; Integrate with popwin-el (https://github.com/m2ym/popwin-el)
 (push "*Youdao Dictionary*" popwin:special-display-config)
+
+(add-hook 'after-init-hook '(lambda () (load-theme 'solarized-dark t)))
 
 (provide 'init-packages)
