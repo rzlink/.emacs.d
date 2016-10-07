@@ -6,7 +6,7 @@
 (menu-bar-mode -1)
 
 ;; turn off scroll bar
-(scroll-bar-mode nil)
+(scroll-bar-mode -1)
 
 ;; turn off inhibit startup screen
 (setq inhibit-startup-screen t)
