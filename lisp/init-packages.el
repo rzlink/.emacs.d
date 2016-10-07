@@ -19,6 +19,7 @@
 			  spacegray-theme
 			  monokai-theme
 			  solarized-theme
+			  spacemacs-theme
 			  ) "Default packages")
 
 (setq package-selected-packages davwei/packages)
